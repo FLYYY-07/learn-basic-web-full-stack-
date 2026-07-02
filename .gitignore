@@ -1,0 +1,22 @@
+# Dependency folder (Ukurannya raksasa dan bisa diinstall ulang pakai 'npm install')
+node_modules/
+
+# File Environment / Rahasia (Berisi password database, API key, JWT secret)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# File log dari npm (Biasanya muncul kalau ada error saat install package)
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# File sistem operasi (Sampah otomatis dari Windows / macOS)
+Thumbs.db
+.DS_Store
+
+# Folder build/dist untuk production (Nanti kalau sudah tahap akhir)
+/dist
+/build
