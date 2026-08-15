@@ -1,5 +1,6 @@
 # Dependency folder (Ukurannya raksasa dan bisa diinstall ulang pakai 'npm install')
 node_modules/
+.env
 
 # File Environment / Rahasia (Berisi password database, API key, JWT secret)
 .env
